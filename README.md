@@ -4,6 +4,9 @@
 
 ## Board Functionality
 This board acts as a quick connect to the OBD diagnostic port on a Toyota Tacoma 2023 in order for me to check on vehicle performance over long work trips and to evaluate overall vehicle performance over its lifetime.
+
+![image](https://user-images.githubusercontent.com/126422709/222989379-cd9871d0-ebbd-4954-b26f-62520ebde9a3.png)
+
 Data collected VIA CAN (e.g. Diagnostic troublecodes, Engine RPM, Coolant Temperature, Intake Manifold Temperature, Fuel Pressure, et.c) is displayed on an OLED display which a user toggle to cycle through its data collection.
 All Data is written to an SD card for hard data and is additionally streamed via bluetooth to an IOS app where all data is collected and plotted for a specific trip). 
 
