@@ -20,6 +20,8 @@ A few years ago I saw the adoption of the ELM327 microcontroller unit that acted
 It had a UART interface to connect to other handheld diagnostic tools. I want to modernize this design and update its MCU to the STM32 family for higher performance and open source all
 aspects of its development for my specific vehicle and set different configuration packets for a range of SAE CAN standards. 
 
+Notes on CAN Interfacing with STM32: https://controllerstech.com/can-protocol-in-stm32/
+
 ![image](https://user-images.githubusercontent.com/126422709/222988891-c67becc6-91a3-4e95-818f-7bfca187253f.png)
 
 
