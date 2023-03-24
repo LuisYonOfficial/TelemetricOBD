@@ -26,7 +26,7 @@ Notes on CAN Interfacing with STM32: https://controllerstech.com/can-protocol-in
 
 
 ## TODO: 
-- Determine Toyota Tacoma 2023 CAN Protocal --> set in Documentation
+- Determine Toyota Tacoma 2023 CAN Protocal IDs for individual parameters --> set in Documentation
 - Select CAN chip for interfacing with STM32. Preferably with easy to read library docs. 
       - See if there's an individual breakout board w/ same chip with interfacing with the nucleoboard. Set a benchtop setup. 
       - See if basic CAN data can be read for a demo protocal standard. 
