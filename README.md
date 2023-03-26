@@ -22,6 +22,8 @@ aspects of its development for my specific vehicle and set different configurati
 
 Due to current chip shortage. I will be creating the first revision set with an Arduino Nano with an interfaced CAN breakout board. This will then be translated to the new chipset along with an added CAN logic chip. 
 
+![image](https://user-images.githubusercontent.com/126422709/227768642-87662fd5-0ea2-4594-870d-b7fb320a3426.png)
+
 Notes on CAN Interfacing with STM32: https://controllerstech.com/can-protocol-in-stm32/
 
 ![image](https://user-images.githubusercontent.com/126422709/222988891-c67becc6-91a3-4e95-818f-7bfca187253f.png)
