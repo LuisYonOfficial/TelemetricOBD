@@ -20,7 +20,7 @@ A few years ago I saw the adoption of the ELM327 microcontroller unit that acted
 It had a UART interface to connect to other handheld diagnostic tools. I want to modernize this design and update its MCU to the STM32 family for higher performance and open source all
 aspects of its development for my specific vehicle and set different configuration packets for a range of SAE CAN standards. 
 
-Due to current chip shortage. I will be creating the first revision set with an Arduino Nano with an interfaced CAN breakout board. This will then be translated ot the new chipset along with an added CAN logic chip. 
+Due to current chip shortage. I will be creating the first revision set with an Arduino Nano with an interfaced CAN breakout board. This will then be translated to the new chipset along with an added CAN logic chip. 
 
 Notes on CAN Interfacing with STM32: https://controllerstech.com/can-protocol-in-stm32/
 
@@ -29,7 +29,6 @@ Notes on CAN Interfacing with STM32: https://controllerstech.com/can-protocol-in
 
 ## TODO: 
 - Determine Toyota Tacoma 2023 CAN Protocal IDs for individual parameters --> set in Documentation
-- Select CAN chip for interfacing with STM32. Preferably with easy to read library docs. 
-      - See if there's an individual breakout board w/ same chip with interfacing with the nucleoboard. Set a benchtop setup. 
+- Longterm: Select CAN chip for interfacing with STM32. Preferably with easy to read library docs. 
+- Shortterm: Select basic can module board for interfacing with arduino nano.
       - See if basic CAN data can be read for a demo protocal standard. 
-- Set basic peripherial circuitry for the STM32 device selected.
